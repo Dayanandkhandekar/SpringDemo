@@ -34,7 +34,7 @@ public String toString() {
 	return "Emp [empId=" + empId + ", empName=" + empName + ", empAddress=" + empAddress + "]";
 }
 public Emp() {
-	
+	System.out.println("inside default No arg");
 }
    
 }
