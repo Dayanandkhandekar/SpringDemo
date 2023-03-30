@@ -23,5 +23,9 @@ public class EmpTestData {
 	  System.out.println("After Modication===");
 	  System.out.println("e2===="+e2);
 	  System.out.println("e3===="+e3);
+	  
+	  
+	  Emp e4 = (Emp) c.getBean("emp2");
+	  System.out.println("e4====="+e4);
 }
 }

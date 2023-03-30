@@ -36,5 +36,18 @@ public String toString() {
 public Emp() {
 	System.out.println("inside default No arg");
 }
+/**
+ * @param empId
+ * @param empName
+ * @param empAddress
+ */
+public Emp(int empId, String empName, String empAddress) {
+	super();
+	this.empId = empId;
+	this.empName = empName;
+	this.empAddress = empAddress;
+}
    
+
+
 }

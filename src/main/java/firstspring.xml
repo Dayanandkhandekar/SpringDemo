@@ -21,7 +21,12 @@
     	<value>Mumbai</value>
     </property>
     </bean>
- 
- 
+		
+		 <bean class ="com.emppojo.Emp" id ="emp2" >
+		 <constructor-arg name="empId" value="2"> </constructor-arg>
+		 <constructor-arg name="empName" value="Pqr"> </constructor-arg>
+		 <constructor-arg name="empAddress" value="Pune"> </constructor-arg>
+		 </bean>
+		 
  
  </beans>
